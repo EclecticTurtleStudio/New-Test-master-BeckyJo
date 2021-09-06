@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "email": "test.user@example.com",
+      "password": "$2a$10$gyZ.su7dRgjWwzAFEfpcteseBx8r5DS9IsUubfjKGHb9x298.PSZe",
+      "id": 1
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "name": "Death of a Salesman",
+      "description": "Arthur Miller's book to a movie",
+      "date": "1989-09-15",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Interstellar",
+      "description": "Life on Mars",
+      "date": "1989-12-07",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "name": "The Godfather",
+      "description": "Classic Mafia Movie",
+      "date": "1992-11-08",
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "name": "Pulp Fiction",
+      "description": "Quentin's cult classic",
+      "date": "1993-07-05",
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "name": "Edge of Tomorrow",
+      "description": "Space Groundhog's Day",
+      "date": "1993-07-07",
+      "userId": 1
+    },
+    {
+      "id": 6,
+      "name": "Groundhogs Day",
+      "description": "Deja-vu",
+      "date": "1993-09-30"
+    },
+    {
+      "id": 7,
+      "name": "Ocean's Eleven",
+      "description": "High stakes heist",
+      "date": "1996-01-17",
+      "userId": 1
+    },
+    {
+      "id": 8,
+      "name": "Jurasic Park",
+      "description": "Dinosaur Island",
+      "date": "1996-02-28",
+      "userId": 1
+    },
+    {
+      "id": 9,
+      "name": "The Mummy",
+      "description": "It came from Egypt",
+      "date": "1996-07-26"
+    },
+    {
+      "id": 10,
+      "name": "Spiderman",
+      "description": "Does whatever a spider can",
+      "date": "1999-10-27",
+      "userId": 1
+    },
+    {
+      "id": 11,
+      "name": "X-Men",
+      "description": "Mutants galore",
+      "date": "2003-11-09",
+      "userId": 1
+    },
+    {
+      "id": 12,
+      "name": "Iron Man",
+      "description": "Tony Stark with a power suit",
+      "date": "2008-04-16",
+      "userId": 1
+    },
+    {
+      "id": 13,
+      "name": "A Million Ways to Die in the West",
+      "description": "Someone always dies at the fair",
+      "date": "2010-08-27",
+      "userId": 1
+    },
+    {
+      "id": 14,
+      "name": "22 Jump Street",
+      "description": "It comes after 21 Jump Street",
+      "date": "2010-11-18",
+      "userId": 1
+    },
+    {
+      "id": 15,
+      "name": "The Purge",
+      "description": "Lock your doors",
+      "date": "2011-07-07",
+      "userId": 1
+    },
+    {
+      "id": 16,
+      "name": "Frozen",
+      "description": "Let it go",
+      "date": "2012-05-26",
+      "userId": 1
+    },
+    {
+      "id": 17,
+      "name": "Garfield",
+      "description": "He hates Mondays",
+      "date": "2013-04-16",
+      "userId": 1
+    }
+  ]
+}
