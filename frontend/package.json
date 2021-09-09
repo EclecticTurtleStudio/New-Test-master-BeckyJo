@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "mithril": "^2.0.4"
-  }
+  },
+  "proxy": "http://localhost:3000"
 }

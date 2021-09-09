@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <title>Movie Directory</title>
 
+    <script src="https://unpkg.com/mithril/mithril.js"></script>
     <script src="index.js"></script>
     <script src="login.js"></script>
+
 
 </head>
 <body>
 
-<div id="LoggedIn"></div>
+<div id="LoggedIn">
 
-<form>
-    <label for="email">Email:
-    <input type="text" name="email" id="email"></label>
-    <label for="password">Password:
-    <input type="password" name="password" id="password"></label>
-    <input type="submit" onclick="submitLogIn()" id="submit" value="Log In">
-</form>
+    <form>
+        <label for="email">Email:
+            <input type="text" name="email" id="email"></label>
+        <label for="password">Password:
+            <input type="password" name="password" id="password"></label>
+        <input type="submit" onclick="submitLogIn()" id="submit" value="Log In">
+    </form>
+
+</div>
 
 </body>
 </html>
