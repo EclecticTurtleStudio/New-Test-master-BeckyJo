@@ -12,12 +12,18 @@ function submitLogIn(){
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4 && xhr.status === 200) {
-        console.log(json.email + ", " + json.password);
+        console.log("it worked");
         }
     }
+
+    var data = JSON.stringify({"email": user, "password": pswd});
+    xhr.send(data);
+
+
+
 };
-var data = JSON.stringify({"email": user, "password": pswd});
-xhr.send(data);
+
+
 
 
 
