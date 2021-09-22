@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Movie Directory</title>
 
-    <script src="https://unpkg.com/mithril/mithril.js"></script>
+    <!--<script src="https://unpkg.com/mithril/mithril.js"></script>-->
     <script src="index.js"></script>
     <script src="login.js"></script>
 
@@ -14,13 +14,27 @@
 
 <div id="LoggedIn">
 
-    <form>
+    <!--
+    <form id="loginForm">
         <label for="email">Email:
             <input type="text" name="email" id="email"></label>
         <label for="password">Password:
             <input type="password" name="password" id="password"></label>
         <input type="submit" onclick="submitLogIn()" id="submit" value="Log In">
     </form>
+    -->
+
+    <form id="loginForm" action="http://localhost:8000/login" method="post">
+        <label for="email">Email:
+            <input type="text" name="email" id="email">
+        </label>
+        <label for="password">Password:
+            <input type="password" name="password" id="password">
+        </label>
+        <button>Submit</button>
+    </form>
+
+    <button onclick="showMovieDatabase(serverAuth)" id="databaseButton" >Show Database</button>
 
 </div>
 
