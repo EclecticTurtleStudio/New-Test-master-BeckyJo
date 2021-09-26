@@ -5,36 +5,30 @@
     <title>Movie Directory</title>
 
     <!--<script src="https://unpkg.com/mithril/mithril.js"></script>-->
-    <script src="index.js"></script>
-    <script src="login.js"></script>
+    <script src="javascript/index.js"></script>
+    <script src="javascript/login.js"></script>
 
+    <link rel="stylesheet" href="style/main.css">
 
 </head>
 <body>
 
 <div id="LoggedIn">
 
-    <!--
-    <form id="loginForm">
-        <label for="email">Email:
-            <input type="text" name="email" id="email"></label>
-        <label for="password">Password:
-            <input type="password" name="password" id="password"></label>
-        <input type="submit" onclick="submitLogIn()" id="submit" value="Log In">
-    </form>
-    -->
+    <fieldset>
+        <legend>Please Log In!</legend>
+        <form id="loginForm">
+            <label class="formInput" for="email">Email:
+                <input type="text" name="email" class="formInput" id="email">
+            </label><br />
+            <label class="formInput" for="password">Password:
+                <input type="password" name="password" class="formInput" id="password">
+            </label><br />
+            <input type="submit" onclick="submitLogIn()" class="button" id="submit" value="Log In">
+        </form>
+    </fieldset>
 
-    <form id="loginForm" action="http://localhost:8000/login" method="post">
-        <label for="email">Email:
-            <input type="text" name="email" id="email">
-        </label>
-        <label for="password">Password:
-            <input type="password" name="password" id="password">
-        </label>
-        <button>Submit</button>
-    </form>
-
-    <button onclick="showMovieDatabase(serverAuth)" id="databaseButton" >Show Database</button>
+    <button onclick="showMovieDatabase()" class="button" id="databaseButton" >Show Database</button>
 
 </div>
 

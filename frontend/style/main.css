@@ -1,0 +1,20 @@
+body {
+    background-color: linen;
+}
+
+fieldset {
+    border-color: maroon;
+    width: 220px;
+    align-content: center;
+    margin: auto;
+}
+
+.formInput {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.button {
+    margin: 15px auto;
+    padding: 5px 20px;
+}

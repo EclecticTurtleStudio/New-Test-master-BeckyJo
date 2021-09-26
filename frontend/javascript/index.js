@@ -1,6 +1,6 @@
-serverAuth =
+var serverAuth = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QudXNlckBleGFtcGxlLmNvbSIsImlhdCI6MTYzMjU3NzU1OCwiZXhwIjoxNjMyNTgxMTU4LCJzdWIiOiIxIn0.cJrfJd2RNhfQR3wDCPw-YvbrAWBVVvaBIB3oE1KfrYo"
 
-function showMovieDatabase(serverAuth){
+function showMovieDatabase(){
 
 //This is supposed to take the JWT and send it to the server to allow authorization to see the database list.
 
@@ -17,8 +17,6 @@ function showMovieDatabase(serverAuth){
     xhr.setRequestHeader("Authorization", "Bearer " + serverAuth);
 
     xhr.send();
-
-    console.log("pizza");
 
 }
 
