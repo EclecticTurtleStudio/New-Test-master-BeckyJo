@@ -1,4 +1,4 @@
-var serverAuth = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QudXNlckBleGFtcGxlLmNvbSIsImlhdCI6MTYzMjU3NzU1OCwiZXhwIjoxNjMyNTgxMTU4LCJzdWIiOiIxIn0.cJrfJd2RNhfQR3wDCPw-YvbrAWBVVvaBIB3oE1KfrYo"
+var serverAuth = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QudXNlckBleGFtcGxlLmNvbSIsImlhdCI6MTYzMjY2NTkwOSwiZXhwIjoxNjMyNjY5NTA5LCJzdWIiOiIxIn0.-EXFrWXdTGQnknRZoaech3gARz2QOv-_4Si6Yq_jgeo"
 
 function showMovieDatabase(){
 
@@ -17,6 +17,8 @@ function showMovieDatabase(){
     xhr.setRequestHeader("Authorization", "Bearer " + serverAuth);
 
     xhr.send();
+
+
 
 }
 

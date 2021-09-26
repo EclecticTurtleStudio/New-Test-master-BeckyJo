@@ -11,28 +11,25 @@ function submitLogIn(){
 
     //email and password are being obtained from HTML form!! WAHOO!!
 
-    var data = JSON.stringify({
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+
+    var loginFormInputs = JSON.stringify({
       "email": user,
       "password": pswd
     });
 
-    var url = "http://localhost:8000/login";
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: loginFormInputs,
+      redirect: 'follow'
+    };
 
-    var xhr = new XMLHttpRequest();
-    xhr.withCredentials = true;
-
-    xhr.addEventListener("readystatechange", function() {
-      if(url.readyState === 4) {
-        console.log(responseText);
-      }
-    });
-
-    xhr.open("POST", url);
-    xhr.setRequestHeader("Content-Type", "application/json");
-
-    xhr.send(data);
-
-    console.log(response.json);
+    fetch("http://localhost:8000/login", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
 
 };
 

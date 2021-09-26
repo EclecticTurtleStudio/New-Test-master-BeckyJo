@@ -1,12 +1,7 @@
 body {
-    background-color: linen;
-}
-
-fieldset {
-    border-color: maroon;
-    width: 220px;
-    align-content: center;
-    margin: auto;
+    background-color: grey;
+    background-image: url("../images/denise-jans-Lq6rcifGjOU-unsplash.jpg");
+    background-size: 100%;
 }
 
 .formInput {
@@ -18,3 +13,4 @@ fieldset {
     margin: 15px auto;
     padding: 5px 20px;
 }
+
