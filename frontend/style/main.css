@@ -1,16 +1,13 @@
 body {
-    background-color: grey;
-    background-image: url("../images/denise-jans-Lq6rcifGjOU-unsplash.jpg");
+    background-image: url(../images/denise-jans-Lq6rcifGjOU-unsplash.jpg);
     background-size: 100%;
 }
 
-.formInput {
-    font-size: 20px;
-    line-height: 1.3;
+#mainContent {
+    margin-top: 20px;
 }
 
-.button {
-    margin: 15px auto;
-    padding: 5px 20px;
-}
+
+
+
 

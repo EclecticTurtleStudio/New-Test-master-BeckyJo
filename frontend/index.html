@@ -14,49 +14,54 @@
 </head>
 <body>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h3>
-                h3. Lorem ipsum dolor sit amet.
-            </h3>
-            <p>
-                Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-            </p>
+<div class="container-fluid" id="mainContent">
 
-            <button onclick="showMovieDatabase()" class="button" id="databaseButton" >Show Database</button>
-        </div>
-        <div class="col-md-4">
+    <div class="col-md-12">
 
-            <fieldset>
-                <legend>Please Log In!</legend>
-                <form id="loginForm" class="form">
-                    <label class="formInput" for="email">Email:
-                        <input type="text" name="email" class="formInput" id="email">
-                    </label><br />
-                    <label class="formInput" for="password">Password:
-                        <input type="password" name="password" class="formInput" id="password">
-                    </label><br />
-                    <input type="submit" onclick="submitLogIn()" class="button submit" id="submit" value="Log In">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center text-primary">
+                    Movie Database
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h3>
+                    You need to Log In!
+                </h3>
+                <p>
+                    To enjoy the wonders of this web application, you need to log in using the form to the right -->
+                </p>
+            </div>
+            <div class="col-md-4">
+                <form role="form">
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email address
+                        </label>
+                        <input type="email" class="form-control" id="email" name="email"/>
+                    </div>
+                    <div class="form-group">
+
+                        <label for="password">
+                            Password
+                        </label>
+                        <input type="password" class="form-control" id="password" name="password" />
+
+                    </div>
+                    <button type="submit" class="btn btn-primary" onclick="submitLogIn()">
+                        Submit
+                    </button>
                 </form>
-            </fieldset>
-
+            </div>
         </div>
+
     </div>
+
 </div>
 
 
 </body>
 </html>
-
-
-

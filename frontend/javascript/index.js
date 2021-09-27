@@ -1,4 +1,7 @@
-var serverAuth = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QudXNlckBleGFtcGxlLmNvbSIsImlhdCI6MTYzMjY2NTkwOSwiZXhwIjoxNjMyNjY5NTA5LCJzdWIiOiIxIn0.-EXFrWXdTGQnknRZoaech3gARz2QOv-_4Si6Yq_jgeo"
+
+//I am struggling to figure out how to optain this dynamically. I am sure it is something simple, but I am not finding it.
+
+var serverAuth = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QudXNlckBleGFtcGxlLmNvbSIsImlhdCI6MTYzMjcwNTYwMiwiZXhwIjoxNjMyNzA5MjAyLCJzdWIiOiIxIn0.WtH0AX-cBrRocCBEVGJp1LPAVNos_nzcqWj7DIAvtdA"
 
 function showMovieDatabase(){
 
@@ -18,7 +21,7 @@ function showMovieDatabase(){
 
     xhr.send();
 
-
+    console.log("showMovieDatabase is running!")
 
 }
 
