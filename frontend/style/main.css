@@ -7,7 +7,15 @@ body {
     margin-top: 20px;
 }
 
+#loginForm {
+    background-color: rgba(169, 43, 43, 0.61);
+    padding: 10px 20px 20px 20px;
+}
 
+#pageTitle {
+    color: maroon;
+    font-family: script;
+}
 
 
 
