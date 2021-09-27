@@ -23,5 +23,22 @@ function showMovieDatabase(){
 
     console.log("showMovieDatabase is running!")
 
+    fetch("http://locahost:8000/movies").then(function(response){
+       response.json().then(function(json) {
+          const destination = document.getElementById("destination");
+          destination.addEventListener("load", function(){
+             destination.innerHTML = `
+                <div>
+                   <h3>Movie ${json[0].name}</h3>
+                   <ul>
+                        <li>Release date: ${json[0].date}</li>
+                        <li>${json[0].description}</li>
+                   </ul>
+                </div>
+             `;
+          });
+       });
+    });
+
 }
 
