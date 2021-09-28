@@ -1,6 +1,5 @@
 body {
-    background-image: url(../images/denise-jans-Lq6rcifGjOU-unsplash.jpg);
-    background-size: 100%;
+    background-color: lightGrey;
 }
 
 #mainContent {
@@ -8,13 +7,30 @@ body {
 }
 
 #loginForm {
-    background-color: rgba(169, 43, 43, 0.61);
+    background-color: grey;
     padding: 10px 20px 20px 20px;
 }
 
 #pageTitle {
-    color: maroon;
+    font-size: 50px;
+    color: red;
     font-family: script;
+}
+
+article {
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.movieDetails {
+    margin: 1px;
+}
+
+.movieTitle {
+    font-family: serif;
 }
 
 
